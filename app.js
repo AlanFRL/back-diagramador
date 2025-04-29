@@ -9,8 +9,8 @@ const diagramRoutes = require('./routes/diagramRoutes');
 const app = express();
 
 app.use(cors({
-    origin: 'http://localhost:4200'
-    //origin: 'https://frontdiagramador.netlify.app'
+    //origin: 'http://localhost:4200'
+    origin: 'https://harmonious-fox-f44c67.netlify.app'
   }));
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
