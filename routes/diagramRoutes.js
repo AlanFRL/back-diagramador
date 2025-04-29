@@ -1,3 +1,4 @@
+// File: routes/diagramRoutes.js
 const express = require('express');
 const { getAllDiagrams, getDiagramById, createDiagram, updateDiagram, deleteDiagram,collaborate,getDiagramsByUserId } = require('../controllers/diagramController');
 const { authMiddleware } = require('../middlewares/authMiddleware');

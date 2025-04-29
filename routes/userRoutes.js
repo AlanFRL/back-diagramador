@@ -1,3 +1,4 @@
+// routes/userRoutes.js
 const express = require('express');
 const { getAllUsers, getUserById, updateUser, deleteUser } = require('../controllers/userController');
 const { authMiddleware } = require('../middlewares/authMiddleware');

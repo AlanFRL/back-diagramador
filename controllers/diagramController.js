@@ -1,3 +1,4 @@
+// File: controllers/diagramController.js
 const Diagram = require('../models/Diagram');
 const Colaboracion = require('../models/Colaboracion');
 const crypto = require('crypto');
